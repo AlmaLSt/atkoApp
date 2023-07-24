@@ -29,7 +29,7 @@ a:link, a:visited, a:active {
     color: white;
 }
 
-.card{
+.card-client{
      border: 2px solid #98C1D9;
      width: 30%;
      margin: auto;
