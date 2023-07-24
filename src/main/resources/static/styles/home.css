@@ -1,0 +1,59 @@
+body {
+  background-color: #013464;
+  color: white;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.home_container{
+        margin: 100px auto;
+        display: flex;
+        justify-content: space-around;
+        padding: 0 150px;
+}
+
+.home_logo img{
+    width: 300px;
+}
+
+.home_sign{
+    text-align: center;
+}
+
+.home_header, .home_subheader, home_buttons{
+    margin-bottom: 200px;
+}
+
+.home_btns{
+        gap: 35px;
+        display: flex;
+}
+button {
+    border-radius: 10px;
+    background-color: #98C1D9;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    padding: 5px;
+
+}
+
+button:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+    transition: 1s all;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+     color: #293241;
+}
+
+
+
