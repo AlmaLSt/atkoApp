@@ -1,0 +1,263 @@
+
+body {
+    background-color: #013464;
+    color: white;
+  }
+  
+  h1{
+      font-size: 50px;
+  }
+  
+  h2{
+    color: white;
+  }
+
+  h3{
+      font-size: 30px;
+  }
+  .home_container{
+          margin-top: 10%;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+  }
+
+  .home_logo img{
+      width: 100%;
+  }
+  
+  .home_sign{
+      text-align: center;
+      
+  }
+  
+  .home_header, .home_subheader{
+      margin-bottom: 40%;
+  }
+  
+  .home_btns{
+          gap: 35px;
+          display: flex;
+  }
+  button {
+      border-radius: 15px;
+      background-color: #98C1D9;
+      font-size: 25px;
+      font-weight: bold;
+      width: 200px;
+      height: 60px;
+      padding: 5px;
+  }
+  
+  button:hover{
+      cursor:pointer;
+      transform: scale(1.1);
+      transition: 1s all;
+  }
+  
+  a:link, a:visited, a:active {
+      text-decoration:none;
+       color: #293241;
+  }
+
+  /* Sign up styles */
+
+  form {
+    width: 40%;
+    margin: auto;
+    margin-top: 10%;
+    color: #999ca3;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+  }
+
+  .form-header{
+    background: url("/src/assets/community.jpg");
+    background-position: 50%;
+    opacity: .8;
+    height: 150px;
+    border-radius: 15px 15px 0 0;
+  }
+
+  .form-floating{
+    width: 60%;
+    margin: auto;
+    margin-top: 2em;
+  }
+
+  .form-btn{
+    margin-top: 2em;
+  }
+
+  .back-btn{
+    font-size: 20px;
+    margin: 50px 0 50px;
+  }
+
+  /* Home*/
+
+  .alert-message{
+    background-color: black;
+  }
+  .navbar{
+    padding: 0;
+  }
+
+  .container-fluid {
+    background-color: #013464;
+    font-size: 2em;
+  }
+
+  .navbar a:link, a:visited{
+    text-decoration:none;
+    color: white;
+}
+
+.navbar a:hover{
+  color: #98C1D9;
+}
+
+.dropdown-menu{
+  background-color: #013464;
+}
+
+.navbar-brand img{
+  margin-left: 30px;
+  margin-right: 50px;
+}
+
+.d-flex{
+  margin: 0;
+}
+
+.btn-outline-success{
+  background-color: #98C1D9;
+  color: white;
+}
+
+.btn-outline-success:hover{
+  cursor:pointer;
+  transform: scale(1.1);
+  transition: 1s all;
+  background-color: #98C1D9;
+  border:none;
+}
+
+.carousel-control-prev, .carousel-control-next{
+  margin: auto;
+}
+
+.blog{
+  padding: 2%;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.blog h2{
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.blog, .carousel img{
+  max-height: 700px;
+}
+
+.my-clients{
+  margin-top: 200px;
+}
+
+.my-clients, .categories-clients, .display-professionals h2{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.description{
+  font-size: 22px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.card {
+margin: auto;
+margin-bottom: 100px;
+max-height: 500px;
+font-size: 25px;
+padding: 10px;
+background-color: #98C1D9;
+color: #013464;
+text-align: center;
+}
+
+.card h5{
+  font-weight: bolder;
+}
+
+.card .btn{
+  margin-top: 30px;
+  background-color: #013464;
+  color: white;
+
+}
+
+/* Home clients */
+
+.carousel {
+  margin-top: 60px;
+}
+
+.categories-clients{
+  width: 80%;
+  margin: auto;
+  font-size: 50px;
+}
+
+.categories-clients img{
+  opacity: .7;
+}
+
+
+.cards-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+ 
+}
+
+
+
+/* Delete user */
+
+.delete-form {
+  margin: auto;
+  text-align: center;
+}
+
+.delete-form h3{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.form-delete{
+  font-size: 25px;
+  text-align: left;
+  color: #013464;
+  width: 40%;
+  margin: auto;
+  background-color: white;
+  opacity: .8;
+}
+.delete-form label, p{ 
+  font-weight: bolder;
+}
+.delete-form button{
+  margin-bottom: 50px;
+}
+
+.form-delete a{
+  color: #013464;
+ 
+}
+
+
